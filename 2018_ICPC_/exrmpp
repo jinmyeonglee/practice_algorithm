@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo 'compile... ' $1
+g++ -g -O2 -std=gnu++14 -Wall $1 && ./a.out && rm a.out

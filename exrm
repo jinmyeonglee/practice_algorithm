@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo 'compile... ' $1
+gcc -g -O2 -std=gnu11 $1 -lm && ./a.out && rm a.out
