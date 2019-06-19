@@ -25,6 +25,9 @@
     <facet type="Python" name="Python facet">
       <configuration sdkName="Python 3.7 (practice_algorithm)" />
     </facet>
+    <facet type="Python" name="Python facet">
+      <configuration sdkName="Python 3.7" />
+    </facet>
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

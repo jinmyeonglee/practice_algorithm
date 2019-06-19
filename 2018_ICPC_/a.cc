@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 #define ll long long int
+
 ll pow(ll p, ll a){
     ll ans = 1;
     while(a){

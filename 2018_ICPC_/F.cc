@@ -37,7 +37,6 @@ int main(){
             for(i = st;v[i].first==l;i++){
                 for(j = en;v[j].first==r;j--){
                     if(chk(i,j)){
-                        //printf("%d %d %d %d\n",v[i].second.first,v[i].second.second,v[j].second.first,v[j].second.second);
                         flag = 1;
                         break;
                     }
